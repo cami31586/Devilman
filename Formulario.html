@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario a Devilman</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="https://vignette.wikia.nocookie.net/fictionalcrossover/images/f/f6/Devilman_manga_logo.png/revision/latest?cb=20150513021652" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="https://devilman.fandom.com/es/wiki/Devilman" target="_blank">Fandom de devilman</a></li>
+                    <li><a href="https://fb.watch/cVTsTcbxMU/" target="_blank">Facebook</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLRW80bBvVD3VzTdVNE_pjMC4S-PJefbxb" target="_blank">Banda sonora</a></li>
+                    <li><a href="https://youtu.be/gn2CUOFKYp4" target="_blank">Trailer</a></li>
+                    <li><a href="Formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </header>
+        <section class="formulario">
+            <form>
+                <label id="name" for="Nombre">Nombre:</label><br>
+                <input  type="text" id="Nombre" placeholder="Escriba su nombre" required=""><br>
+                <label id="apell" for="Apellido">Apellidos: *</label><br>
+                <input type="text" id="Apellido" placeholder="Escriba su apellido" maxlength="25" minlength="7" required="">
+                <br>
+                <label id="edad" for="Edad">Edad:</label><br>
+                <input type="number" id="Edad" placeholder="Escriba su edad">
+                <br>
+                <label id="email" for="Email">Correo Electronico:</label><br>
+                <input type="email" id="Email" placeholder="Escriba su correo electronico"><br>
+                <br>
+                <label id="contraseña" for="Contraseña">Contraseña:</label><br>
+                <input type="password" id="Contraseña" placeholder="Escriba su contraseña" required minlength="8" maxlength="20">
+                <br>
+                <label id="telefono" for="Telefono">Telefono:</label><br>          
+                <input type="tel" id="Telefono" placeholder="Escriba su numero de telefono" required minlength="10" maxlength="10">
+                <br>
+                <label id="fecha" for="date">Fecha:*</label><br>
+                <input type="date" id="date" placeholder="" required minlength="10" maxlength="10">
+                <br>
+                <div>
+                    <input type="radio" name="conect" id="internet">
+                    <label id="internet" for="internet">Inicio por Softnyx</label><br>
+                    <input type="radio" name="conect" id="whatsapp">
+                    <label id="whatsapp" for="whatsapp">Inicio por facebook</label><br>
+                    <input type="radio" name="conect" id="celular">
+                    <label id="celular" for="celular">Inicio por Email</label><br>
+                </div> <br>
+                <div>
+                    <input type="checkbox" name="pc" id="PC">
+                    <label id="celular2" for="Celular">PC</label>
+                    <input type="checkbox" name="celular" id="Celular">
+                    <label id="celular3" for="Celular">Consola</label>
+                </div>
+                </select>
+                <!-- <label id="mensaje" for="mensaje">Escriba su mensaje</label><br>
+                <textarea name="" id="mensaje" cols="10" rows="5"></textarea><br> -->
+                <br>
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
+            </form>
+            <img class="img-email" src="https://i.kym-cdn.com/entries/icons/facebook/000/025/117/Amon_Devilman.jpg" alt="Logo">
+            <img class="img-email2" src="https://tierragamer.com/wp-content/uploads/2019/04/devilman-crybaby-1.jpg" alt="diablo">
+            <div class="clear"></div>
+        </section>
+        <footer>
+            <h2>Gracias por diligenciar mi formularios, esto te lo dice Devilman</h2>
+            <h3>Cristian Estrada</h3>
+        </footer>
+    </main>
+</body>
+</html>
